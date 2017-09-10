@@ -1,0 +1,41 @@
+@font-face {
+  font-family:'Streamster';
+  src:url('Streamster.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Roboto_regular';
+  src:url('Roboto_Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Roboto_medium';
+  src:url('Roboto_medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Roboto_light';
+  src:url('Roboto_light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Roboto_thin';
+  src:url('Roboto_thin.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Roboto_bold';
+  src:url('Roboto_bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
