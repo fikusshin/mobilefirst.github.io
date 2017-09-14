@@ -156,9 +156,47 @@ body {
 }
 
 .sales_desc {
-  text-align: center;
+  margin-top: 2%;
+  text-align:center;
   font-family: 'Roboto_regular',Arial,sans-serif;
   font-size: 33px;
   line-height: 44px;
   color: #a3a3a3;
+}
+
+.block_sett {
+  padding: 6px;
+  width: 30px;
+  height: 30px;
+  float: right;
+  background-color: #fff;
+  border-radius: 7px;
+  border: 1px solid #a3a3a3;
+  margin-right: 10px;
+  margin-top: 1%;
+}
+
+.img_center {
+  display: block;
+  text-align: center;
+  clear: both;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.full_list {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.full_list a{
+  text-decoration: none;
+  font-family: 'Roboto_light', Arial,sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a3a3a3;
+}
+
+.full_list a:hover {
+  text-decoration: underline;
 }
