@@ -185,7 +185,7 @@ body {
 }
 
 .full_list {
-  display: block;
+  display: inline-block;
   margin-bottom: 10px;
   margin-left: 10px;
 }
