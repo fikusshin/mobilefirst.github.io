@@ -8,6 +8,10 @@ body {
   background-color: #e5e9ea;
 }
 
+img {
+  max-width: 100%;
+}
+
 .clear {
   clear:both;
 }
@@ -243,12 +247,44 @@ body {
   background-color: #f95738;
 }
 
+.red {
+  margin-right: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #c72000;
+}
+
+.dark_red {
+  margin-right: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #8e1800;
+}
+
+.brown {
+  margin-right: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #570e00;
+}
+
 .black {
   margin-right: 10px;
   display: inline-block;
   width: 10px;
   height: 10px;
   background-color: #2c3e50;
+}
+
+.blue {
+  margin-right: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #3498db;
 }
 
 .bold {
@@ -292,4 +328,87 @@ body {
 .table_info {
   font-family: 'Roboto_light';
   color: #858585;
+}
+
+.todays_product_list_stat {
+  width: 90%;
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+
+.todays_product_list_stat li {
+  position: relative;
+}
+
+.todays_product_list_stat h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: 'Roboto_Regular';
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.todays_product_list_stat img {
+  height: 18px;
+}
+
+.todays_profit {
+  display: block;
+  text-align: center;
+  clear: both;
+  font-family:'Roboto_bold',Arial,sans-serif;
+  font-size: 60px;
+  line-height: 80px;
+  color: #f95738;
+  margin-top: 60px;
+}
+
+.todays_profit img {
+  margin-left: 6px;
+  height: 17px;
+}
+
+.product_list {
+  border: 0;
+  background:none;
+  color: #858585;
+  font-family: 'Roboto_Regular';
+  font-size: 18px;
+  margin-bottom: 75px;
+}
+
+.average_sale {
+  display: block;
+  clear: both;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-family: 'Roboto_light';
+  font-size: 15px;
+  line-height: 22px;
+  color: #858585;
+}
+
+.average_sale li {
+  padding: 5px;
+  border-bottom: 1px solid #858585;
+}
+
+li .grey {
+  float: right;
+  font-family: 'Roboto_medium';
+}
+
+.average_total {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Roboto_Regular';
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  color: #363636;
 }
