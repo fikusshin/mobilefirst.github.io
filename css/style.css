@@ -167,6 +167,10 @@ img {
   margin: 3% 6% 3% 6%;
 }
 
+.sales_info_grey {
+  background-color: #e8eced;
+}
+
 .sales_desc {
   margin-top: 2%;
   text-align:center;
@@ -452,45 +456,74 @@ li .grey {
     margin-right: 5px;
   }
 
-  .sales_desc {
-    float: left;
-    margin-left: 30px;
-    clear: both;
+  .sales_info:first-child {
+    margin: 4% 0 0 0;
   }
 
-  .block_sett {
-    margin-top: 25px;
+  .sales_info:last-child {
+    margin: 4% 0 0 0;
   }
 
-  .pp {
-    margin-right: 30px;
+  .sales_info , .sales_info_grey {
+    margin: 4% 0 0 0;
   }
+
 
   .content {
-    clear: both;
+    margin: 0 4% 4% 4%;
+  }
+
+  .first_flex {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin:0;
-  }
-
-  .sales_info {
-    margin: 0;
-  }
-
-  .sales_info:first-child {
-    margin:0;
+    flex-direction: row;
   }
 
   .tablet_small {
-    float: left;
-    height: 442px;
-    width: 44%;
+    width: 48%;
   }
 
   .tablet_medium {
-    margin: 3%;
-    width: 94%;
+    width: 100%;
+  }
+
+  .second_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .tablet_medium-large {
+    min-height: 772px;
+    height: 100%;
+    width: 55%;
+  }
+
+  .second_flex-inside {
+    width: 41%;
+    height: 772px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .second_flex-inside .sales_info {
+    margin-top: 0;
+  }
+  .tablet_small-medium {
+
+  }
+
+  .third_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .third_flex .sales_info {
+    width: 48%;
   }
 }
