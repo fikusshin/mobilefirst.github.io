@@ -410,6 +410,10 @@ li .grey {
   color: #363636;
 }
 
+.average_total li , .orange , .red , .dark_red , .brown {
+  margin-left: -10px;
+}
+
 @media (min-width:768px) {
   .for_pc {
     display: inline;
@@ -446,5 +450,20 @@ li .grey {
   .main_nav a img{
     margin-left: 5px;
     margin-right: 5px;
+  }
+
+  .sales_desc {
+    float: left;
+    margin-left: 30px;
+    clear: both;
+  }
+
+  .block_sett {
+    margin-top: 25px;
+    margin-right: 30px;
+  }
+
+  .pp {
+    margin-right: 10px;
   }
 }
