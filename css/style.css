@@ -503,7 +503,7 @@ li .grey {
 
   .second_flex-inside {
     width: 41%;
-    height: 772px;
+    min-height: 772px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -525,5 +525,107 @@ li .grey {
   }
   .third_flex .sales_info {
     width: 48%;
+  }
+}
+
+@media (min-width:1024px) {
+
+  .nav .main_nav {
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .main_nav li {
+    margin-left: 2%;
+    width: 13%;
+  }
+
+  .img_center {
+    clear: both;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    max-width: 70%;
+  }
+
+  .sales_desc {
+    float: left;
+    margin-left: 30px;
+  }
+
+  .block_sett {
+    float: right;
+    margin-top: 18px;
+  }
+
+  .pp {
+    margin-right: 30px;
+  }
+
+  .table {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .table  th {
+    height: 65px;
+  }
+
+  .second_flex-inside .sales_info {
+    height: 47.;
+  }
+
+  .second_flex-inside .todays_product_list_stat {
+    margin-top: 90px;
+  }
+
+  .todays_profit {
+    margin-top: 135px;
+  }
+  .product_list {
+    margin-bottom: 105px;
+  }
+}
+
+@media (min-width:1400px) {
+
+  .main_nav li {
+    width: 10%;
+  }
+
+  .sales_info:first-child {
+    margin: 2% 0 0 0;
+  }
+
+  .sales_info:last-child {
+    margin: 2% 0 0 0;
+  }
+
+  .sales_info , .sales_info_grey {
+    margin: 2% 0 0 0;
+  }
+
+  .content {
+    margin: 0 2% 2% 2%;
+  }
+
+  .tablet_small {
+    width: 26.7%;
+  }
+
+  .tablet_medium {
+    width: 41%;
+  }
+
+  .tablet_large {
+  }
+
+  .table_large .img_center {
+  }
+
+  .tablet_large .img_center img {
+    margin-top: 170px;
+    min-width: 100%;
+    min-height: 100%;
   }
 }
