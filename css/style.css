@@ -35,6 +35,10 @@ img {
   color:#f95738;
 }
 
+.profile_logo {
+  display: none;
+}
+
 .for_pc {
   display: none;
 }
