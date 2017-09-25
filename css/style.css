@@ -573,6 +573,7 @@ li .grey {
 @media (min-width:1024px) {
 
   .profile_logo {
+    display: block;
     position: absolute;
     right: 0;
     margin-right: 50px;
