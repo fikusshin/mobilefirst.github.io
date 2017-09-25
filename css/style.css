@@ -104,6 +104,10 @@ img {
   opacity: 0.36;
 }
 
+.search {
+  display: none;
+}
+
 .info {
   float: left;
 }
@@ -452,6 +456,11 @@ li .grey {
 
 
 @media (min-width:768px) {
+
+  .search {
+    display: block;
+  }
+
   .for_pc {
     display: inline;
   }
