@@ -22,7 +22,6 @@ img {
   display:inline-block;
   background-color: #fff;
   width: 100%;
-  min-width: 320px;
 }
 
 .logo {
@@ -30,6 +29,10 @@ img {
   width: 20%;
   display:block;
   float: left;
+}
+
+.logo a:hover {
+  color:#f95738;
 }
 
 .for_pc {
@@ -111,6 +114,16 @@ img {
   display: inline-block;
 }
 
+
+.info_list a:hover {
+  opacity: 0.5;
+  background-color: black;
+}
+
+.info_list a:focus {
+  background-color: black;
+}
+
 .nav {
   margin-top: -3px;
   clear: both;
@@ -136,6 +149,8 @@ img {
 
 .main_nav a {
   height: 60px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   text-align: center;
   line-height: 66px;
   vertical-align: middle;
@@ -144,27 +159,26 @@ img {
 .main_nav li:hover {
   border-bottom: 6px solid #f95738;
 }
+
+.main_nav a:focus {
+  outline:none;
+  border-bottom: 6px solid #f95738;
+}
+
 .content {
   clear: both;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
-.sales_info:first-child {
-  margin: 6% 6% 3% 6%;
-
+.first_flex {
+  display: inline;
 }
 
-.sales_info:last-child {
-  margin: 3% 6% 6% 6%;
-}
 .sales_info {
+  position: relative;
   background-color: #fff;
-  margin: 3% 6% 3% 6%;
+  margin: 15px;
+  padding-bottom: 40px;
 }
 
 .sales_info_grey {
@@ -192,13 +206,23 @@ img {
   margin-top: 1%;
 }
 
+.block_sett:hover {
+  cursor: pointer;
+  background-color: #e3e3e3;
+}
+
+.block_sett:focus {
+  outline:none;
+  border: 2px solid #e3e3e3;
+}
+
 .img_center {
   display: block;
   text-align: center;
   clear: both;
   max-height: 100%;
-  margin-top: 70px;
-  margin-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 
 }
 
@@ -207,9 +231,11 @@ img {
 }
 
 .full_list {
+  position: absolute;
   display: inline-block;
   margin-bottom: 10px;
   margin-left: 10px;
+  bottom: 0;
 }
 .full_list a{
   text-decoration: none;
@@ -223,10 +249,14 @@ img {
   text-decoration: underline;
 }
 
+.full_list a:focus {
+  text-decoration: underline;
+}
+
 .sales_flow_chart_info {
   display: block;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 .sales_flow_chart_info li{
@@ -528,6 +558,33 @@ li .grey {
 }
 
 @media (min-width:1024px) {
+
+  .profile_logo {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 29px;
+  }
+
+  .profile_button {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    border: 4px solid rgba(116,124,131,0.9);
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/profile_logo.png);
+    background-position: center;
+  }
+
+  .profile_button:focus {
+    border: 4px solid black;
+  }
+
+  .profile_button:hover {
+    border: 4px solid black;
+  }
 
   .nav .main_nav {
     justify-content: flex-start;
